@@ -1,0 +1,17 @@
+.Message {
+  display: flex;
+  align-items: center;
+}
+.Message > img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+.Message__info {
+  padding-left: 10px;
+}
+.message__timestamp {
+  color: gray;
+  font-weight: 300;
+  font-size: 13px;
+}
